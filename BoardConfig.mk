@@ -25,7 +25,7 @@ TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event4"
 TARGET_KERNEL_CONFIG := cepheus_defconfig
 
 # Inherit from the proprietary version
--include vendor/xiaomi/cepheus/BoardConfigVendor.mk
+-include vendor/xiaomi/sm8150-common/BoardConfigVendor.mk
 
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
