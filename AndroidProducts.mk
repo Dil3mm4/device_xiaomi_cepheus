@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/magma_cepheus.mk
+    $(LOCAL_DIR)/descendant_cepheus.mk
