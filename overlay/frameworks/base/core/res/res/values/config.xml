@@ -777,4 +777,6 @@
 
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
 
+    <integer name="config_fingerprintSensorLocation">4</integer>
+
 </resources>
