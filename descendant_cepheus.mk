@@ -9,6 +9,7 @@ $(call inherit-product, device/xiaomi/cepheus/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/descendant/config/common_full_phone.mk)
 
+TARGET_INCLUDE_WIFI_EXT := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
