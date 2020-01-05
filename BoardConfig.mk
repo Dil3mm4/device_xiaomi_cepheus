@@ -9,6 +9,9 @@
 
 DEVICE_PATH := device/xiaomi/cepheus
 
+# A/B updater
+AB_OTA_UPDATER := true
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := cepheus
 
